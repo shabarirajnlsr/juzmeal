@@ -1,0 +1,94 @@
+.carthead{
+     margin: 10%;
+}
+.cartmaincontent{
+     background-color: rgb(186, 0, 8);
+     color: white;
+     text-align: center;
+     padding: 10px;
+}
+.carthead h5{
+     text-transform: uppercase;
+     background-color: rgb(44 44 44);
+     color: white;
+     padding: 10px;
+}
+.cartpagebutton{
+     display: flex;
+     justify-content: space-evenly;
+}
+.cartpagebutton button{
+     background-color: rgb(186, 0, 8);
+     color: white;
+     padding: 10px;
+     border-radius: 6px;
+}
+.cartpagebutton button:hover{
+     background-color: rgb(44 44 44);
+}
+.calculateHeadings{
+     display: flex;
+     justify-content: space-evenly;
+     border: 1px solid rgb(44 44 44);
+     border-radius: 6px;
+     padding: 10px;
+}
+.totalcart{
+     display: flex;
+     justify-content: space-evenly;
+}
+.newlogincartpage{
+     border: 1px solid rgb(44 44 44);
+     border-radius: 6px;
+     padding: 20px;
+     text-align: center;
+     height: 300px;
+}.newlogincartpage input{
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom-color: rgb(186, 0, 8);
+}
+.newlogincartpage button{
+     background-color: rgb(186, 0, 8);
+     color: white;
+     padding: 10px;
+     border-radius: 6px;
+}
+.newlogincartpage button:hover{
+     background-color: rgb(44 44 44);
+}
+
+
+
+/*  */
+
+
+.cart-wrapper {
+     width: 1170px;
+     margin: 0 auto;
+}
+
+.cart-message {
+    background-color: #3d191a;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 5px 10px 0;
+    margin-bottom: 15px;
+}
+
+.card-title {
+     display: flex;
+}
+
+.card-title > div {
+     width: 25%;
+}
+
+.card-table {
+     padding: 10px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
